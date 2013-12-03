@@ -1,0 +1,75 @@
+// Reset no longer needed if you're using Bootstrap. But add it back if you don't want to use Bootstrap.
+// @import "reset";
+
+.logo{
+    background: url(images/logo.jpg) no-repeat;
+    background-size:  175px 131px;
+    width: 175px;
+    height: 131px;
+    float: left;
+    position: fixed;
+    top:0;
+}
+
+.top {
+        position: fixed;
+        background-color: #fff;
+        z-index: 1;
+        top: 0;
+        width: 100%;
+        padding: 6px 0;
+        height: auto;
+        box-shadow: 0 2px 20px rgba(0,0,0,0.2);
+}
+
+.nav{
+        float: right;
+        padding-top: 1px;
+}
+
+.nav > a{
+        display: inline-block;
+        padding: 5px 10px;
+        text-transform: uppercase;
+        border-radius: 3px;
+        font-weight: bold;
+}
+
+/*HERO*/
+
+.hero-image{
+    margin: 0;
+    padding-top:1px;
+    position: relative;
+    width: auto;
+    height: 100%;
+    clear: both;
+    background: url(images/jumbo1.jpeg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.headline{
+    background-color: rgba(255,255,255,0.9);
+    position: absolute;
+    top: 35%;
+    min-height: 200px;
+    color: #383533;
+    /*height: 30%;*/
+    padding: 2em;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+}
+
+// * {
+//     background-repeat: no-repeat;
+// }
+
+// body {
+//     background: pink;
+// }
+
+// @media screen and (min-width: 800px) {
+//     body {
+//         background: orange;
+//     }
+// }
